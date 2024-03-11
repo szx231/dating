@@ -1,0 +1,158 @@
+.avatar {
+  height: 3.125rem;
+  width: 3.125rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarContainer {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.infoContainer {
+  display: flex;
+  gap: .625rem;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: .781rem;
+}
+
+.avatarInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: .625rem;
+}
+
+.lastMessageText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 12.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 24.438rem;
+  justify-content: space-between;
+  position: relative;
+  margin-right: .625rem;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: .313rem;
+}
+
+.fullNameContainer {
+  display: grid;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.fullName {
+  font-size: $font-size-xm;
+  font-weight: $font-weight-m;
+  line-height: 1.33rem;
+}
+
+.fullNameText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 12.5rem;
+}
+
+.lastMessage {
+  font-weight: $font-weight-s;
+  font-size: $font-size-xm;
+  color: rgba(136, 136, 136, 1);
+  line-height: 18.62px;
+  text-align: left;
+}
+
+.wrapperGap {
+  display: flex;
+  gap: .313rem;
+  align-items: center;
+}
+
+.lastMessageWrapper {
+  display: flex;
+  gap: .313rem;
+  align-items: start;
+}
+
+.date {
+  font-weight: $font-weight-s;
+  font-size: $font-size-xm;
+  color: rgba(136, 136, 136, 1);
+  line-height: 18.62px;
+  text-align: end;
+}
+
+.pinContainer {
+  display: grid;
+  justify-content: end;
+}
+
+.onlineIndicate {
+  border-radius: 50%;
+  background-color: rgba(108, 203, 95, 1);
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  z-index: 10;
+  right: 5px;
+  bottom: 0px;
+}
+
+.checked {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: .25rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.checkedBorder {
+  background-color: rgba(96, 205, 255, 1);
+  width: .188rem;
+  height: 1.75rem;
+  border-radius: 62.438rem;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  display: flex;
+  gap: .625rem;
+  align-items: center;
+  justify-content: end;
+}
+
+.messageCountContainer {
+  background-color: rgba(138, 138, 138, 1);
+  border-radius: 1.25rem;
+  padding: .188rem .5rem .188rem .5rem;
+  font-weight: $font-weight-s;
+  font-size: $font-size-xs;
+  color: #fff;
+  line-height: 18.62px;
+}
+
+.messageCountChecked {
+  background-color: #2380d7;
+}

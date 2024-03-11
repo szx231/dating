@@ -1,0 +1,18 @@
+.container {
+  background-color: rgba(21, 102, 163, 1);
+  border-radius: .875rem;
+  width: 16.75rem;
+  height: 3.875rem;
+  border: none;
+  padding: .5rem .625rem;
+  overflow-y: auto;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.positionMessage {
+  display: grid;
+  justify-content: end;
+}

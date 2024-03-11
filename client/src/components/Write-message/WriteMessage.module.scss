@@ -1,0 +1,90 @@
+.flexContainer {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  width: 100%;
+}
+
+.emojiWrapper {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  & button {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.button {
+  display: flex;
+}
+
+.buttonMicAnimationClick {
+  transition: background-color 0.2s;
+
+  &:active {
+    animation: sun-rise 0.2s ease-in-out;
+
+    @keyframes sun-rise {
+      from {
+        background-color: transparent;
+      }
+      to {
+        background-color: red;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0.0512);
+  padding: 0rem .938rem;
+}
+
+.input {
+  width: 100%;
+  background-color: transparent;
+  padding: .625rem 0rem;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: rgba(138, 138, 138, 1);
+  font-weight: $font-weight-s;
+  font-size: $font-size-m;
+  line-height: 21.28px;
+}
+
+@keyframes blickCircleRed {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.circleRecordRed {
+  border-radius: 50%;
+  height: .75rem;
+  width: .75rem;
+  background-color: red;
+  animation: 1s blickCircleRed ease-in-out infinite;
+}
+

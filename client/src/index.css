@@ -1,0 +1,37 @@
+@import url('./reset.css');
+/* @import url('./styles/globalStyles.scss'); */
+/* @import url('./styles/fonts.scss'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: Poppins, sans-serif;
+  --second-family: Poppins, sans-serif;
+  --third-family: Poppins, sans-serif;
+  --font3: Poppins, sans-serif;
+  --font4: Poppins, sans-serif;
+  --font5: Poppins, sans-serif;
+  background-color: rgba(32, 32, 32, 1);
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

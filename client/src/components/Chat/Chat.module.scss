@@ -1,0 +1,22 @@
+.container {
+  background-color: #3A3A3A4D;
+  width: inherit;
+  border-radius: .438rem;
+  // padding: .875rem 2.813rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100lvh;
+  // overflow-y: auto;
+}
+
+.wrapperMessages {
+  padding: .875rem 2.813rem;
+  overflow-y: auto;
+}
+
+.messageList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

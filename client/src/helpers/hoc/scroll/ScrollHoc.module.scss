@@ -1,0 +1,32 @@
+.chatListContainer {
+  max-height: 100lvh;
+  margin-top: 1.25rem;
+}
+
+.custom-scroll-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.custom-scroll-container::-webkit-scrollbar {
+  width: .25rem;
+  border-radius: 8px;
+  transition: all ease-in-out .3ms;
+  scroll-behavior: smooth;
+}
+
+.custom-scroll-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.custom-scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scroTrackHidden::-webkit-scrollbar-track {
+  background-color: #2e2c2c4d;
+}
+
+.scroThumHidden::-webkit-scrollbar-thumb {
+  background-color: #7471714d;
+}
